@@ -1,0 +1,293 @@
+body {
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.navbarSupportedContent {
+  margin: 0 10% 0;
+}
+
+#bg {
+  background-color: #fff;
+}
+
+.navbar-toggler .top-bar {
+  border: none !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  list-style: none;
+  color: blue;
+  font-family: 'Monoton', cursive;
+  font-size: 20px;
+  margin-right: 10%;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.toggler-icon {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  transition: all 0.3s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(40deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=200);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.navbar-toggler.collapsed.toggler-icon {
+  background-color: #000;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 10%;
+}
+
+.btn {
+  border-radius: 30%;
+}
+
+#about {
+  color: red;
+}
+.heading-cont {
+  margin: 0 8%;
+  padding-top: 8%;
+}
+
+.container-fluid-bg {
+  padding-bottom: 1%;
+  background-image: url(./img/pathway.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.script-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 100px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  color: rgb(211, 35, 35);
+  padding: 1%;
+}
+
+.header {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 30px;
+  font-weight: 200%;
+  color: #ff5900c6;
+}
+
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff5900c6;
+  font-size: 30px;
+}
+
+.venue {
+  font-size: 15px;
+  padding-bottom: 10%;
+}
+
+.card:hover,
+.card:focus {
+  border: 1px solid white;
+}
+
+.main-sec {
+  color: #fff;
+  text-align: center;
+  padding-top: 6%;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  margin: 0 48%;
+  width: 4%;
+  border: 1px solid red;
+}
+.card {
+  border: none;
+}
+
+.card-body-f {
+ margin-right: 20%;
+}
+.card-title-m {
+  text-align: center;
+}
+.card-text-m {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 20%;
+  margin: 8% 40%;
+}
+.seePro-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seePro > li > a {
+  color: #fff8dc;
+  margin-bottom: 5%;
+  
+}
+.seePro > li > a:hover {
+  background: chocolate;
+  cursor: pointer;
+}
+
+.row-f {
+  margin: 0 15%;
+  padding: 3%;
+}
+
+.feature-spe {
+  color: #000;
+  text-align: center;
+  padding-top: 6%;
+  margin-bottom: 0.5%;
+}
+
+.line-f {
+  margin: 0 48%;
+  width: 4%;
+  border: 0.5px solid rgb(248, 121, 121);
+}
+
+.row > h5 {
+  text-align: center;
+  color: #808080;
+  margin-top: 3%;
+}
+
+.line-foot {
+  margin: 0.5% 48%;
+  width: 2%;
+  border: 0.5px solid rgb(248, 121, 121);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #808080;
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+  padding-top: 10%;
+}
+.regis-head {
+  text-align: center;
+}
+
+.form-divider {
+  border: 1px solid red;
+}
+
+.sigin-head {
+  color: aqua;
+}
+
+.form-control-login {
+  flex-direction: column;
+}
+
+.submit {
+  width: 60%;
+}
+
+form i {
+  margin-left: -3%;
+  cursor: pointer;
+}
+
+/* .para {
+  color: #f0f;
+} */
+
+/* .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+} */
+
+/* .modal-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  padding: 20%;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgbba(0,0,0,0.2), 0 7px 0 rgba(0,0,0.17)
+} */
+
+.closeBtn {
+  color: #808080;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color:#000;
+  cursor: pointer;
+  text-decoration: none;
+}
